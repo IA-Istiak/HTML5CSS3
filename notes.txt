@@ -1,0 +1,4 @@
+<img src="./img/onnorokom.png" alt="image" usemap="#workmap">
+        <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" href="#" alt="#">
+        </map> 
