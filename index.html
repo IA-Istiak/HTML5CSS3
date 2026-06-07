@@ -4,9 +4,22 @@
 <html lang="en-US">
     <head>
         <title>My Web Page</title>
+        <link rel="icon" type="image/png" href="./img/logo.png">
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-radius: 10px;
+            }
+            th,td{
+                padding: 15px;
+            }
+            table{
+                border-spacing: 15px;
+            }
+        </style>
     </head>
 
-    <body>
+    <body style = "background-color: beige;">
         <h1 style="font-family: Verdana;">This is a Heading</h1>
         <p style ="font-size: 300%;text-align:center;">This is a Paragraph</p>
         <hr>
@@ -15,7 +28,10 @@
              <h2>HTML5 Features</h2>
              <p>HTML5 introduces semantic tags. 22min done</p>
         </article>
-        <img src="./img/onnorokom.png" alt="image" width="500" height="400">
+        <img src="./img/onnorokom.png" alt="image" width="500" height="400" usemap="#workmap">
+         <map name ="workmap">
+            <area shape="circle" coords="337,300,44" href = "https://www.w3schools.com/html/html_images_imagemap.asp">
+         </map>
         <p style="color:red"> Red Color</p>
         <p title="tolltip"> Lorem ipsum dolor, 
             sit amet consectetur adipisicing <br>
@@ -37,6 +53,29 @@
          <q>Be yourself; everyone else is already taken.</q>
          <p>The <abbr title = "World Health Organization">WHO</abbr>this was istublish in 1990s</p>
          <a href="mailto:xyz@gmail.com">Send Mail</a>
+
+        <table style="width:100%">
+            <caption>Table List</caption>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfred</td>
+                <td>Maria</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td>Fransisco</td>
+                <td>Maxico</td>
+            </tr>
+            <tr>
+                <td colspan ="2"> Rowspan</td>
+                <td>yyo</td>
+            </tr>
+        </table>
          
 
 
